@@ -5,38 +5,31 @@
       body{
         padding-top: 40px;
         padding-bottom: 40px;
-        background-color: #97a8ec;
+        background-color: #ecea97;
       }
       .name{
         color: #fffffe;
+        display: flex;
+        justify-content: center;
       }
      
       .social-icons a{
-        color: #fffffe;
+        color: #fffffe;   
         text-decoration: none;
       }
 
       .link{
         background-color: #ffcc7f;
+        display: flex;
+        align-items: center;
       }
 
       .link a{
         color: #001e1d;
         text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
       }
-
-    </style>
-    <title>Luke O</title>
-    <meta charset="utf-8">
-    <meta name="author" content="Luke O'Connell">
-  </head>
-
-  <body>
-    <div class="items">
-      <div class="banner">
-        <img src="/thumbnails/IMG_1022.jpg" alt="Luke O'Connell photo" class="banner-image">
-      </div>
-      <style>
       .banner-image{
         width: 128px;
         height: 128px;
@@ -48,8 +41,25 @@
         border-radius: 48px;
         object-fit: cover;
       }
-      </style>
+      .items{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        
+      }
+    </style>
+    <title>Luke O</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Luke O'Connell">
+  </head>
 
+  <body>
+    <div> 
+      <div class="banner">
+        <img src="/thumbnails/IMG_1022.jpg" alt="Luke O'Connell photo" class="banner-image">
+      </div>
+      
       <div class="name">
       Luke O'Connell
       </div>
@@ -77,9 +87,7 @@
           src="/thumbnails/download.jpg">
         <a target="_blank" href='https://12bar.de/cms/tutorial/slide/'>Slide Guitar for Beginners</a>
       </div>
-    
-
-  </div> 
+    </div> 
   </body>
 
 </html>
